@@ -4,7 +4,7 @@ A simple and elegant greeting web application built with **Flask**.
 This app displays a friendly message to the user based on their name input.  
 It uses a clean UI with HTML, CSS, and Python in the backend — and is structured to be deploy-ready for platforms like **Heroku**.
 
-![Screenshot](https://raw.githubusercontent.com/winterr79/greetingApp_FLASK/main/static/screenshots/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/winterr79/greetingApp/empyreon/static/screenshots/screenshot.png)
 
 ---
 
@@ -22,7 +22,7 @@ It uses a clean UI with HTML, CSS, and Python in the backend — and is structur
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/greetingApp_FLASK.git
+   git clone https://github.com/your-username/greetingApp.git
    cd greetingApp_FLASK
    ```
 
