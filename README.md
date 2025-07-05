@@ -2,7 +2,7 @@
 
 A simple and elegant greeting web application built with **Flask**.  
 This app displays a friendly message to the user based on their name input.  
-It uses a clean UI with HTML, CSS, and Python in the backend — and is structured to be deploy-ready for platforms like **Heroku**.
+It uses a clean UI with HTML, CSS, and Python in the backend and is structured to be deploy-ready for platforms like **Heroku**.
 
 ![Screenshot](https://raw.githubusercontent.com/winterr79/greetingApp/empyreon/static/screenshots/screenshot.png)
 
