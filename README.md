@@ -1,4 +1,4 @@
-# GreetingApp_FLASK
+# GreetingApp
 
 A simple and elegant greeting web application built with **Flask**.  
 This app displays a friendly message to the user based on their name input.  
