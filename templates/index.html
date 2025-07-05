@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Say Hello</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Shanti&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='sayHello.png') }}" alt="Say Hello">
+        <form action="/greet" method="post">
+            {% for message in get_flashed_messages() %}
+                <p>{{ message }}</p>
+            {% endfor %}
+            <input type="text" name="name_input" required>
+            <input type="submit" value="GREET" id="greet">
+        </form>
+    </div>
+</body>
+</html>
